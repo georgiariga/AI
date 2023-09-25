@@ -1,6 +1,6 @@
 # File:         a_star_DM.r 
 # Description:  A* algorithm implementation for Delivery Man
-# Author:       Derrick Nii Adjei Adjei
+# Author:       Derrick Nii Adjei Adjei, Georgia Riga, Ruvimbo Kapondo
 
 
 # Install the package
