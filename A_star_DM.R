@@ -286,7 +286,7 @@ getBestPackage <- function(from, packages){
       package = unpicked[i,]
       pickupLoc = package[1:2]
       deliveryLoc = package[3:4]
-      pickupCost = getEuclideanDistance(from, pickupLoc)
+      pickupCost = getManhattanDistance(from, pickupLoc)
       deliveryCost = getEuclideanDistance(pickupLoc, deliveryLoc)
       costs = c(costs, (pickupCost * pickupWeight) + (deliveryCost * deliveryWeight))
     }
